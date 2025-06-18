@@ -1,0 +1,85 @@
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La Boutique du Supporter</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+    header { background-color: #111; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #222; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    .section { padding: 20px; }
+    .products { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .product { background: white; padding: 15px; border-radius: 10px; width: 220px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .product img { width: 100%; border-radius: 5px; }
+    .badge { display: inline-block; padding: 3px 8px; border-radius: 5px; font-size: 12px; color: white; margin-bottom: 5px; }
+    .stock { background-color: green; }
+    .commande { background-color: orange; }
+    .btn { display: inline-block; margin-top: 10px; padding: 8px 12px; background-color: #111; color: white; border-radius: 5px; text-decoration: none; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>La Boutique du Supporter</h1>
+    <p>Maillots, accessoires & plus pour les vrais fans !</p>
+  </header>
+
+  <nav>
+    <a href="#stock">En stock</a>
+    <a href="#commande">Sur commande</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="section" id="stock">
+    <h2>Articles en stock</h2>
+    <div class="products">
+      <div class="product">
+        <span class="badge stock">En stock</span>
+        <img src="https://via.placeholder.com/200x200.png?text=Maillot+Real+Madrid" alt="Maillot Real" />
+        <h3>Maillot Real Madrid</h3>
+        <p>Prix : 13 000 FCFA</p>
+        <a class="btn" href="https://ci.ci/gQ5N" target="_blank">Commander sur WhatsApp</a>
+      </div>
+
+      <div class="product">
+        <span class="badge stock">En stock</span>
+        <img src="https://via.placeholder.com/200x200.png?text=Porte-cl%C3%A9+Bar%C3%A7a" alt="Porte-clé Barça" />
+        <h3>Porte-clé Barça</h3>
+        <p>Prix : 2 000 FCFA</p>
+        <a class="btn" href="https://ci.ci/gQ5N" target="_blank">Commander sur WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="commande">
+    <h2>Articles sur commande</h2>
+    <div class="products">
+      <div class="product">
+        <span class="badge commande">Sur commande</span>
+        <img src="https://via.placeholder.com/200x200.png?text=Maillot+PSG+2024" alt="Maillot PSG" />
+        <h3>Maillot PSG 2024</h3>
+        <p>Prix : 14 000 FCFA<br />Délai : 3-5 jours</p>
+        <a class="btn" href="https://ci.ci/gQ5N" target="_blank">Commander</a>
+      </div>
+
+      <div class="product">
+        <span class="badge commande">Sur commande</span>
+        <img src="https://via.placeholder.com/200x200.png?text=%C3%89charpe+Arsenal" alt="Écharpe Arsenal" />
+        <h3>Écharpe Arsenal</h3>
+        <p>Prix : 5 500 FCFA<br />Délai : 3 jours</p>
+        <a class="btn" href="https://ci.ci/gQ5N" target="_blank">Commander</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>📞 0799037919</p>
+    <p>📲 <a href="https://ci.ci/gQ5N" target="_blank">Commander ou poser une question sur WhatsApp</a></p>
+  </section>
+</body>
+</html>
